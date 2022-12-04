@@ -11,26 +11,41 @@ body {
   
 }
 
-.hero-banner { height: 400px;
-  background-image: url(../images/02-hero-bg.jpg);
-  background-position-x: center;
-  margin-top: 5px;
-  
-
+h2 {
+  padding: 10px;
 }
-nav{
+
+.text1 {
+  padding-left: 20px;
+}
+
+.hero-banner { 
+  height: 400px;
+  background-position-x: right;
+  margin-top: 3px;
+  background-image: url(../images/02-hero-bg.jpg);
+  background-size: cover;
+}
+nav {
   display: flex;
   justify-content: space-between;
   background-color: black;
   background-size: auto;
+  height: 80px;
+}
+
+.page-section{
+  margin-top: 20px;
+  display: flex;
+  font-size: large;
 }
   
 
 
-ul{
+ul {
   display: flex;
   justify-content: space-between;
-list-style: none;
+  list-style: none;
   color: white;
 
 }
@@ -39,13 +54,22 @@ li {
   text-decoration: underline; 
   color: aqua;
 }
-.logo{
+.logo {
   font-size: 40px;
-  color: white;
-  background-color: rgb(14, 248, 248);
-  background-size:auto;
+  color: black;
+  background-color:rgb(14, 248, 248);
 }
 
+/*rgb(14, 248, 248)*/
+
+.vertical-line{
+  height: 100px;
+  width: 10px;
+  border-radius: 80px;
+  background-color: rgb(19, 89, 89);
+
+
+}
 
 h1,
 h2,
