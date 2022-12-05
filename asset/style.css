@@ -75,18 +75,18 @@ li {
 
 .grid {
   display: grid;
-  height: 1900px;
+  height: 1600px;
   grid-template-columns: 550px 550px 550px;
   grid-template-rows: 600px 600px;
   margin-left: 20;
-  border:solid;
+
   
 }
 .gridcontainer{
   display: grid;
-  height: 2000px;
+  height: 1000px;
   grid-template-columns: 800px 800px;
-  grid-template-rows: 600px 600px 600px;
+  grid-template-rows: 500px 500px 500px;
   margin-left: 20px;
   grid-template-areas: 
   
@@ -99,7 +99,7 @@ li {
 
 
 .Grid-element-1{ 
-  background-image: url(/images/02-portfolio-4.jpg);
+  background-image: url(../images/02-portfolio-4.jpg);
   background-size: cover;
   grid-area: header;
   border: solid;
@@ -132,8 +132,8 @@ li {
 .Grid-element-5 {
   border: solid;
   margin: 10px;
-  background-size: cover;
-  background-image: url(../images/02-portfolio-4.jpg);
+  background-size: auto;
+  background-image: url(../images/02-run-buddy.jpg);
   grid-template-areas: grid-5;
 }
 
@@ -143,14 +143,14 @@ li {
 
 
 .vertical-line{
-  height: 120px;
+  height: 80%;
   width: 4px;
   background-color: rgb(56, 63, 63);
   margin-left: 60px;
 }
 
 .vertical-line2{
-  eight: 120px;
+  height: 1500px;
   width: 2px;
   background-color: rgb(56, 63, 63);
   margin-left: 60px;
