@@ -9,10 +9,16 @@ body {
   line-height: 1.5;
   background-color: whitesmoke;
   
+  }
+  
+.page-wrapper{
+  
+
 }
 
 h2 {
   padding: 10px;
+  font-size: xx-large;
 }
 
 .text1 {
@@ -34,16 +40,8 @@ nav {
   height: 80px;
 }
 
-.page-section{
-  margin-top: 20px;
-  display: flex;
-  font-size: large;
-}
-  
-
-
 ul {
-  display: flex;
+  display: flex; 
   justify-content: space-between;
   list-style: none;
   color: white;
@@ -60,15 +58,102 @@ li {
   background-color:rgb(14, 248, 248);
 }
 
+
+.page-section{
+  margin-top: 20px;
+  display: flex;
+  font-size: large;
+}
+  
+
+.page-section2{
+  display: flex;
+  margin-top: 20px;
+  margin-left: 8px;
+}
+
+
+.grid {
+  display: grid;
+  height: 1900px;
+  grid-template-columns: 550px 550px 550px;
+  grid-template-rows: 600px 600px;
+  margin-left: 20;
+  border:solid;
+  
+}
+.gridcontainer{
+  display: grid;
+  height: 2000px;
+  grid-template-columns: 800px 800px;
+  grid-template-rows: 600px 600px 600px;
+  margin-left: 20px;
+  grid-template-areas: 
+  
+  "header header"
+  "grid-2 grid-3"
+  "grid-5 grid-6";
+ 
+  grid-gap: 10px;
+}
+
+
+.Grid-element-1{ 
+  background-image: url(/images/02-portfolio-4.jpg);
+  background-size: cover;
+  grid-area: header;
+  border: solid;
+  margin: 10px;
+}
+
+.Grid-element-2 {
+  border: solid;
+  margin: 10px;
+  background-size: cover;
+  background-image: url(../images/02-portfolio-1.jpg);
+  grid-template-areas: grid-2;
+}
+.Grid-element-3 {
+  border: solid;
+  margin: 10px;
+  background-size: cover;
+  background-image: url(../images/02-portfolio-2.jpg);
+  grid-template-areas: grid-3;
+}
+
+.Grid-element-4 {
+  border: solid;
+  margin: 10px;
+  background-size: cover;
+  background-image: url(../images/02-portfolio-3.jpg);
+  grid-template-areas: grid-4;
+}
+
+.Grid-element-5 {
+  border: solid;
+  margin: 10px;
+  background-size: cover;
+  background-image: url(../images/02-portfolio-4.jpg);
+  grid-template-areas: grid-5;
+}
+
+
 /*rgb(14, 248, 248)*/
 
+
+
 .vertical-line{
-  height: 100px;
-  width: 10px;
-  border-radius: 80px;
-  background-color: rgb(19, 89, 89);
+  height: 120px;
+  width: 4px;
+  background-color: rgb(56, 63, 63);
+  margin-left: 60px;
+}
 
-
+.vertical-line2{
+  eight: 120px;
+  width: 2px;
+  background-color: rgb(56, 63, 63);
+  margin-left: 60px;
 }
 
 h1,
