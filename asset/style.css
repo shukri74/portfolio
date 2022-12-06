@@ -12,6 +12,8 @@ body {
   }
   
 .page-wrapper{
+
+  margin-left: 50px;
   
 
 }
@@ -44,13 +46,16 @@ ul {
   display: flex; 
   justify-content: space-between;
   list-style: none;
-  color: white;
+  color: aqua;
 
 }
+
 li {
   width: 150px;
   text-decoration: underline; 
-  color: aqua;
+  color: rgb(38, 245, 245);
+  
+  
 }
 .logo {
   font-size: 40px;
@@ -62,7 +67,8 @@ li {
 .page-section{
   margin-top: 20px;
   display: flex;
-  font-size: large;
+  font-size: x-large;
+  height: 200px;
 }
   
 
@@ -98,12 +104,14 @@ li {
 }
 
 
-.Grid-element-1{ 
+.My-projects{ 
   background-image: url(../images/02-portfolio-4.jpg);
   background-size: cover;
   grid-area: header;
   border: solid;
   margin: 10px;
+  color: aqua;
+  font-size: xx-large;
 }
 
 .Grid-element-2 {
@@ -112,6 +120,7 @@ li {
   background-size: cover;
   background-image: url(../images/02-portfolio-1.jpg);
   grid-template-areas: grid-2;
+  color: aqua;
 }
 .Grid-element-3 {
   border: solid;
@@ -119,6 +128,7 @@ li {
   background-size: cover;
   background-image: url(../images/02-portfolio-2.jpg);
   grid-template-areas: grid-3;
+  color: aqua;
 }
 
 .Grid-element-4 {
@@ -127,6 +137,7 @@ li {
   background-size: cover;
   background-image: url(../images/02-portfolio-3.jpg);
   grid-template-areas: grid-4;
+  color: aqua;
 }
 
 .Grid-element-5 {
@@ -135,6 +146,7 @@ li {
   background-size: auto;
   background-image: url(../images/02-run-buddy.jpg);
   grid-template-areas: grid-5;
+  color: aqua;
 }
 
 
@@ -144,16 +156,16 @@ li {
 
 .vertical-line{
   height: 80%;
-  width: 4px;
-  background-color: rgb(56, 63, 63);
-  margin-left: 60px;
+  width: 6px;
+  background-color: rgb(48, 50, 50);
+  margin-left: 25px;
 }
 
 .vertical-line2{
   height: 1500px;
   width: 2px;
-  background-color: rgb(56, 63, 63);
-  margin-left: 60px;
+  background-color: rgb(48, 50, 50);
+  margin-left: 25px;
 }
 
 h1,
