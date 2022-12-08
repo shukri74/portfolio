@@ -8,7 +8,7 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
   background-color: whitesmoke;
-  
+
 }
 
 .hero-banner { height: 400px;
@@ -39,7 +39,7 @@ li {
   text-decoration: none;
   border-bottom:aqua 5px solid;
   text-align: center;
-  margin: 0px 6px 15px 7px ; 
+  margin: 0px 6px 20px 7px ; 
   color: aqua;
 }
 
@@ -54,8 +54,76 @@ li {
 }
 
 .subtitle {
-  
+  width: 220px;
+  background-color: aqua;
+  position: relative;
 }
+.about-me-grid {
+  margin: 25px;
+  display: grid;
+  grid-template-columns: 150px 1000px;
+  grid-gap: 30px;
+  grid-template-rows: 100px;
+  grid-template-areas: "about-me about-me-text";
+}
+
+.about-me {
+  grid-area: about-me;
+  border-right: solid aqua;
+  font-size: 30px;
+}
+
+.about-me-text {
+  grid-area: about-me-text;
+}
+
+.page-section {
+  display: flex;
+  justify-content: center;
+}
+
+.page-section-grid {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  grid-template-rows: 500px 500px 500px;
+  grid-template-areas: 
+  "grid-element-1 grid-element-1"
+  "grid-element-2 grid-element-3"
+  "grid-element-4 grid-element-5";
+  grid-gap: 20px;
+}
+
+.grid-element-1 {
+  grid-area: grid-element-1;
+  text-align: center;
+  border: solid;
+}
+
+.grid-element-2 {
+  grid-area: grid-element-2;
+  text-align: center;
+  border: solid;
+}
+
+.grid-element-3 {
+  grid-area: grid-element-3;
+  text-align: center;
+  border: solid;
+}
+
+
+.grid-element-4 {
+  grid-area: grid-element-4;
+  text-align: center;
+  border: solid;
+}
+
+.grid-element-5 {
+  grid-area: grid-element-5;
+  text-align: center;
+  border: solid;
+}
+
 
 h1,
 h2,
@@ -63,7 +131,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 5px;
+  margin: 0;
 }
 
 
