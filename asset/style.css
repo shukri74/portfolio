@@ -9,163 +9,52 @@ body {
   line-height: 1.5;
   background-color: whitesmoke;
   
-  }
-  
-.page-wrapper{
-
-  margin-left: 50px;
-  
-
 }
 
-h2 {
-  padding: 10px;
-  font-size: xx-large;
-}
-
-.text1 {
-  padding-left: 20px;
-}
-
-.hero-banner { 
-  height: 400px;
-  background-position-x: right;
-  margin-top: 3px;
+.hero-banner { height: 400px;
   background-image: url(../images/02-hero-bg.jpg);
   background-size: cover;
+  background-position-x: center;
+  margin-top: 0px;
+  
+
 }
 nav {
   display: flex;
   justify-content: space-between;
-  background-color: black;
+  background-color: rgb(15, 51, 50);
   background-size: auto;
-  height: 80px;
 }
 
 ul {
-  display: flex; 
+  display: flex;
   justify-content: space-between;
   list-style: none;
-  color: aqua;
+  color: white;
 
 }
 
 li {
   width: 150px;
-  text-decoration: underline; 
-  color: rgb(38, 245, 245);
-  
-  
+  text-decoration: none;
+  border-bottom:aqua 5px solid;
+  text-align: center;
+  margin: 0px 6px 15px 7px ; 
+  color: aqua;
 }
+
 .logo {
   font-size: 40px;
-  color: black;
-  background-color:rgb(14, 248, 248);
+  background-color: rgb(14, 248, 248);
+  margin-bottom: 15px;
+  margin-top: 15px;
+  width: 350px; 
+  text-align: end;
+  font-weight: bolder;
 }
 
-
-.page-section{
-  margin-top: 20px;
-  display: flex;
-  font-size: x-large;
-  height: 200px;
-}
+.subtitle {
   
-
-.page-section2{
-  display: flex;
-  margin-top: 20px;
-  margin-left: 8px;
-}
-
-
-.grid {
-  display: grid;
-  height: 1600px;
-  grid-template-columns: 550px 550px 550px;
-  grid-template-rows: 600px 600px;
-  margin-left: 20;
-
-  
-}
-.gridcontainer{
-  display: grid;
-  height: 1000px;
-  grid-template-columns: 800px 800px;
-  grid-template-rows: 500px 500px 500px;
-  margin-left: 20px;
-  grid-template-areas: 
-  
-  "header header"
-  "grid-2 grid-3"
-  "grid-5 grid-6";
- 
-  grid-gap: 10px;
-}
-
-
-.My-projects{ 
-  background-image: url(../images/02-portfolio-4.jpg);
-  background-size: cover;
-  grid-area: header;
-  border: solid;
-  margin: 10px;
-  color: aqua;
-  font-size: xx-large;
-}
-
-.Grid-element-2 {
-  border: solid;
-  margin: 10px;
-  background-size: cover;
-  background-image: url(../images/02-portfolio-1.jpg);
-  grid-template-areas: grid-2;
-  color: aqua;
-}
-.Grid-element-3 {
-  border: solid;
-  margin: 10px;
-  background-size: cover;
-  background-image: url(../images/02-portfolio-2.jpg);
-  grid-template-areas: grid-3;
-  color: aqua;
-}
-
-.Grid-element-4 {
-  border: solid;
-  margin: 10px;
-  background-size: cover;
-  background-image: url(../images/02-portfolio-3.jpg);
-  grid-template-areas: grid-4;
-  color: aqua;
-}
-
-.Grid-element-5 {
-  border: solid;
-  margin: 10px;
-  background-size: auto;
-  background-image: url(../images/02-run-buddy.jpg);
-  grid-template-areas: grid-5;
-  color: aqua;
-}
-
-
-/*rgb(14, 248, 248)*/
-
-
-
-.vertical-line{
-  height: 80%;
-  width: 6px;
-  background-color: rgb(48, 50, 50);
-  margin-left: 25px;
-}
-
-.vertical-line2{
-  height: 1500px;
-  width: 2px;
-  background-color: rgb(48, 50, 50);
-  margin-left: 25px;
 }
 
 h1,
@@ -174,8 +63,9 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0;
+  margin: 5px;
 }
+
 
 p {
   margin: 0;
