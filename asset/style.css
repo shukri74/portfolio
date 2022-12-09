@@ -153,12 +153,20 @@ a {
 .page-section-contact {
   margin: 20px;
   display: grid;
-  grid-template-columns: 100px 1200px;
+  grid-template-columns: 155px 1200px;
   grid-template-rows: 100px;
-  grid-template-areas: "About-me footer-elements";
+  grid-template-areas: "contact-me footer-elements";
 }
 
+.contact-me {
+  border-right: solid aqua;
+  grid-area: contact-me;
+}
 
+.footer-elements {
+  grid-area: footer-elements;
+  
+}
 h1,
 h2,
 h3,
