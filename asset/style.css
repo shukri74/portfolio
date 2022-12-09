@@ -43,12 +43,16 @@ li {
   color: aqua;
 }
 
+.portfolio {
+  padding-right: 15px;
+}
+
 .logo {
   font-size: 40px;
   background-color: rgb(14, 248, 248);
   margin-bottom: 15px;
   margin-top: 15px;
-  width: 350px; 
+  width: 260px; 
   text-align: end;
   font-weight: bolder;
 }
