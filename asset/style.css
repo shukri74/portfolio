@@ -145,7 +145,10 @@ li {
   background-size: cover;
 }
 
-
+a {
+  text-decoration: none;
+  color:aqua;
+}
 
 
 h1,
