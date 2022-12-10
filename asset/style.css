@@ -61,7 +61,21 @@ li {
   width: 220px;
   background-color: aqua;
   position: relative;
+  display: flex;
+  justify-content: left;
+
 }
+.subtitlecontainer{
+  position: relative;
+  display: flex;
+  height: 20vh;
+  justify-content: flex-end;
+  align-items: flex-end;
+  
+
+  
+}
+
 .about-me-grid {
   margin: 25px;
   display: grid;
@@ -171,6 +185,71 @@ a {
   grid-area: footer-elements;
   
 }
+
+@media screen and (max-width: 769px) {
+  .logo {
+    margin: 0px;
+    width: 100%;
+  }
+ .portfolio {
+  text-align: center;
+
+ }
+
+  .about-me {
+    border-right: none;
+  }
+
+  .about-me-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-me-text {
+    border-top :solid aqua;
+
+  }
+
+  .about-me-grid{ 
+    grid-gap: 0px;
+  }
+
+
+  .work {
+    width: 500px;
+    border-bottom: solid aqua;
+    border-right: none;
+    padding: 0px;
+  }
+
+  .contact-me {
+    border-top: solid aqua;
+    border-right: none;
+  }
+
+  .page-section {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+  }
+
+  .page-section-grid {
+    grid-template-columns: 500px;
+    grid-template-rows: 200px 200px 200px 200px 200px;
+    grid-template-areas: 
+    "grid-element-1"
+    "grid-element-2"
+    "grid-element-3"
+    "grid-element-4"
+    "grid-element-5" ;
+    margin: 15px;
+  }
+
+  .nav-bar-elements {
+    display: none;
+  }
+
+}
+
 h1,
 h2,
 h3,
