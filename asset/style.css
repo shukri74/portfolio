@@ -242,10 +242,25 @@ a {
     "grid-element-4"
     "grid-element-5" ;
     margin: 15px;
+
   }
 
   .nav-bar-elements {
     display: none;
+  }
+
+  .page-section-contact {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-elements {
+    width: 500px;
+  }
+
+  .contact-me {
+    border-bottom: aqua solid;
+    border-top: none;
   }
 
 }
