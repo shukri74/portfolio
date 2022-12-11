@@ -87,7 +87,7 @@ li {
 
 .about-me {
   grid-area: about-me;
-  border-right: solid aqua;
+  border-right: solid rgb(0, 105, 105);
   font-size: 30px;
 }
 
@@ -107,7 +107,7 @@ li {
   grid-area: work;
   font-size: 30px;
   margin: 25px;
-  border-right: aqua solid;
+  border-right: rgb(0, 103, 103) solid;
   padding: 25px;
 }
 .page-section-grid {
@@ -177,7 +177,7 @@ a {
 }
 
 .contact-me {
-  border-right: solid aqua;
+  border-right: solid rgb(1, 106, 106);
   grid-area: contact-me;
 }
 
@@ -208,7 +208,7 @@ a {
     flex-direction: column;
   }
   .about-me-text {
-    border-top :solid aqua;
+    border-top :solid rgb(3, 109, 109);
 
   }
 
@@ -219,13 +219,13 @@ a {
 
   .work {
     width: 375px;
-    border-bottom: solid aqua;
+    border-bottom: solid rgb(1, 114, 114);
     border-right: none;
     padding: 0px;
   }
 
   .contact-me {
-    border-top: solid aqua;
+    border-top: solid rgb(0, 98, 98);
     border-right: none;
   }
 
@@ -262,7 +262,7 @@ a {
   }
 
   .contact-me {
-    border-bottom: aqua solid;
+    border-bottom: rgb(0, 100, 100) solid;
     border-top: none;
   }
 
@@ -290,7 +290,7 @@ a {
     flex-direction: column;
   }
   .about-me-text {
-    border-top :solid aqua;
+    border-top :solid rgb(0, 108, 108);
 
   }
 
@@ -301,13 +301,13 @@ a {
 
   .work {
     width: 700px;
-    border-bottom: solid aqua;
+    border-bottom: solid rgb(0, 108, 108);
     border-right: none;
     padding: 0px;
   }
 
   .contact-me {
-    border-top: solid aqua;
+    border-top: solid rgb(0, 106, 106);
     border-right: none;
   }
 
@@ -356,7 +356,7 @@ a {
   }
 
   .contact-me {
-    border-bottom: aqua solid;
+    border-bottom: rgb(0, 104, 104) solid;
     border-top: none;
   }
 
