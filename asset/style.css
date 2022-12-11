@@ -11,12 +11,13 @@ body {
 
 }
 
-.hero-banner { height: 400px;
+.hero-banner {
+  height: 400px;
   background-image: url(../images/02-hero-bg.jpg);
   background-size: cover;
   background-position-x: center;
   margin-top: 0px;
-  
+  width: 100%;
 
 }
 nav {
@@ -72,7 +73,6 @@ li {
   justify-content: flex-end;
   align-items: flex-end;
   
-
   
 }
 
@@ -187,6 +187,9 @@ a {
 }
 
 @media screen and (max-width: 769px) {
+  .hero-banner {
+    width: 100%;
+  }
   .logo {
     margin: 0px;
     width: 100%;
@@ -215,7 +218,7 @@ a {
 
 
   .work {
-    width: 500px;
+    width: 375px;
     border-bottom: solid aqua;
     border-right: none;
     padding: 0px;
@@ -233,7 +236,7 @@ a {
   }
 
   .page-section-grid {
-    grid-template-columns: 500px;
+    grid-template-columns: 375px;
     grid-template-rows: 200px 200px 200px 200px 200px;
     grid-template-areas: 
     "grid-element-1"
@@ -263,6 +266,101 @@ a {
     border-top: none;
   }
 
+}
+
+@media screen and (max-width: 979px) and (min-width: 769) {
+  .hero-banner {
+    width: 100%;
+  }
+  .logo {
+    margin: 0px;
+    width: 100%;
+  }
+ .portfolio {
+  text-align: center;
+  grid-area: portfolio;
+ }
+
+  .about-me {
+    border-right: none;
+  }
+
+  .about-me-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-me-text {
+    border-top :solid aqua;
+
+  }
+
+  .about-me-grid{ 
+    grid-gap: 0px;
+  }
+
+
+  .work {
+    width: 700px;
+    border-bottom: solid aqua;
+    border-right: none;
+    padding: 0px;
+  }
+
+  .contact-me {
+    border-top: solid aqua;
+    border-right: none;
+  }
+
+  .page-section {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+  }
+
+  .page-section-grid {
+    margin: 15px;
+    grid-template-columns: 350px 350px;
+  }
+
+  /*  grid-template-columns: 500px;
+    grid-template-rows: 200px 200px 200px 200px 200px;
+    grid-template-areas: 
+    "grid-element-1"
+    "grid-element-2"
+    "grid-element-3"
+    "grid-element-4"
+    "grid-element-5" ; */
+
+
+  .nav {
+    grid-template-columns: 400px;
+    grid-template-rows: 100% 100%;
+    grid-template-areas: 
+    "portfolio"
+    "nav-bar-elements";
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-bar-elements {
+    grid-area: nav-bar-elements;
+  }
+
+  .page-section-contact {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-elements {
+    width: 500px;
+  }
+
+  .contact-me {
+    border-bottom: aqua solid;
+    border-top: none;
+  }
+
+  
 }
 
 h1,
